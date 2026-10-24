@@ -1,0 +1,19 @@
+{
+  "name": "bot-ventas-whatsapp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bot de atención y ventas para WhatsApp con Gemini",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@google/genai": "^1.0.0",
+    "@whiskeysockets/baileys": "^6.7.13",
+    "pino": "^9.0.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
